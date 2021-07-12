@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pita Shop</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+        <h1> This is Form</h1>
+    </header>
+
+
+    <h2>This is a pita form</h2>
+    <form action="">
+        <p> <label for="name">Name</label>
+            <input type="text" id="name" placeholder="enter your name">
+        </p>
+        <p> <label for="email">email</label>
+            <input type="text" id="email" placeholder="enter your email">
+        </p>
+
+        <fieldset>
+            <legend>Select your pita</legend>
+            <p>
+                <label for="chitoy">
+                    <input type="radio" name="pita" id="chitoy">Chitoy
+                </label>
+            </p>
+            <p>
+                <label for="vapa">
+                    <input type="radio" name="pita" id="vapa">vapa
+                </label>
+            </p>
+            <p>
+                <label for="tel">
+                    <input type="radio" name="pita" id="tel">tel er pita
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select your borya </legend>
+            <p>
+                <label for="sutki">
+                    <input type="checkbox" name="vorta" id="sutki">Shutki
+                </label>
+            </p>
+            <p>
+                <label for="shidol">
+                    <input type="checkbox" name="vorta" id="shidol">shidol
+                </label>
+            </p>
+            <p>
+                <label for="aloborta">
+                    <input type="checkbox" name="vorta" id="aloborta">aloborta
+                </label>
+            </p>
+
+
+        </fieldset>
+
+        <p>special instruction type here</p>
+        <textarea name="instruction" id="special" placeholder="type recommandation" cols="30" rows="10"></textarea>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+</body>
+
+</html>
